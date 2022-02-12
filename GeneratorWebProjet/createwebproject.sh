@@ -10,7 +10,7 @@ cd $projectName
 mkdir style
 mkdir js
 touch index.html
-echo "Setting index.html"
+echo "Setting index.html ..."
 echo "<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,4 +31,8 @@ cd ..
 cd style 
 touch style.css
 echo "Create style.css ..."
+cd ..
+touch .gitignore
+echo ".gitignore" >> .gitignore
+git init
 echo "Finish!"
